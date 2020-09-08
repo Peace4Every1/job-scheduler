@@ -2,8 +2,8 @@
 1. Run the commands below:
 - **`git clone https://github.com/Peace4Every1/job-scheduler`**
 -  **`npm i`**
--  **`npm start`** - to start the job-creator
--  **`npm run start-listener`** - to start the job-listener/executor
+-  **`npm start`** - to start the jobCreator
+-  **`npm run start-listener`** - to start the listener/job-executor
 2. Call the `jobScheduler()` function with 2 arguments: job name that must be available for execution for listener and amount of seconds when to be executed
 3. Once the key expires, listener will make an attempt.
 

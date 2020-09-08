@@ -1,0 +1,19 @@
+{
+  "name": "job-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon jobCreator.js",
+    "start-listener": "nodemon listener.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
